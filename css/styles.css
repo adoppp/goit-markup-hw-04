@@ -507,7 +507,7 @@ justify-content: space-around; */
     border-radius: 50%;
 }
 
-.list-item-icon:hover {
+.list-item-icon:is(:hover, :focus) {
     background: #404BBF;
 }
 
@@ -547,7 +547,7 @@ justify-content: space-around; */
     margin-right: 24px;
 }
 
-.list-customer-item:hover {
+.list-customer-item:is(:hover, :focus) {
     border: 1px solid #404BBF;
 }
 
@@ -557,6 +557,10 @@ justify-content: space-around; */
 
 .list-customer-img {
     padding: 16px 32px;
+}
+
+.list-customer-img:is(:hover, :focus) {
+    filter: invert(34%) sepia(20%) saturate(3509%) hue-rotate(206deg) brightness(90%) contrast(95%);
 }
 
 .footer-soc-links {
