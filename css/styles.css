@@ -434,6 +434,7 @@ justify-content: space-around; */
     background-color: #FFFFFF;
     margin-right: 24px;
     margin-bottom: 48px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .list-set-item:nth-child(n + 7) {
@@ -610,4 +611,8 @@ justify-content: space-around; */
 .img-soc {
     width: 24px;
     height: 24px;
+}
+
+.photo-item {
+    border: 1px solid #E7E9FC;
 }
