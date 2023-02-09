@@ -653,7 +653,3 @@ justify-content: space-around; */
     display: block;
     fill: #8E8F99;
 }
-
-cstmr-svg:hover {
-    filter: invert(34%) sepia(20%) saturate(3509%) hue-rotate(206deg) brightness(90%) contrast(95%);
-}
